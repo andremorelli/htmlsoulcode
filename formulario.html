@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <!--Formulário para cadastro do usuário porem sem tratamento de mascáras-->
+    <form>
+        <p>
+           <h3> Preencha os seus dados para podermos contactar-mos e enviar mais conteúdo sobre sustentabilidade.</h3>
+        </p>
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong></legend>
+            <label>Nome:<br/>
+            <input type="text"/></label><br/>
+            <label>Endereço:<br/>
+            <input type="text"/></label><br/>
+            <label>Cidade:<br/>
+            <input type="text"/></label><br/>
+            <label>Data de Nascimento:<br/>
+            <input type="date"/></label><br/>
+            <label>Telefone:<br/>
+            <input type="number"/></label><br/>
+            <label>E-mail:<br/>
+            <input type="email"/></label><br/>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Dados Profissionais</strong></legend>
+            <label>Ultima Empresa que Trabalhou:<br/>
+            <input type="text"/></label><br/>
+            <label>cargo:<br/>
+            <input type="text"/></label><br/>
+            <label>Segmento:</label><br/>
+            <label for="comercial">Comercial</label>
+            <input id="comercial" type="radio"/>
+            <label for="industrial">Industrial</label>
+            <input id="comercial" type="radio" value="i"/>            
+        </fieldset>
+        <fieldset>
+            <legend><strong>Formação Profissional</strong></legend>
+            <label>Graduação<br/>
+            <input type="text"/></label><br/>
+            <label>Pós-Graduação<br/>
+            <input type="text"/></label><br/>
+            <label>Softs Skills<br/>
+            <input type="text"/></label><br/>    
+            <fieldset>
+                <legend>Comentários</legend>
+                <label>Escreva aqui</label><br/>
+                <textarea rows="4" cols="40"></textarea>
+            </fieldset>       
+        </fieldset>
+        <p>
+            <button type = "submit">Enviar</button>
+            <button type = "reset">Reset</button>
+        </p>
+    </form>
+    <h2 align = center>Links Úteis</h2>
+    <a href="index.html">Voltar para Home</a><br>
+</body>
+</html>
